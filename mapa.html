@@ -2,10 +2,30 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <link rel="stylesheet" href="stylemap.css">
+    <link rel="stylesheet" href="../Mapa/css/stylemap.css">
+    
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>-->
+
 <title>MapaArianaAlves</title>
 </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--<script type="text\javascript" src="js\jsmap.js"></script>-->
+    
+    <script>
+        $(document).ready(function(){
+        $(".marker-seixascaminha").hover(function(){
+        $(".seixascaminha-txt").toggle();
+            });
+        });
+    </script>
 <body>
 	
     <div class="seixascaminha-txt hide">
@@ -2802,11 +2822,11 @@
             </g>
         </g>
         <g>
-            <circle class="seixascaminha" style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-miterlimit:10;" cx="340.886" cy="78.448" r="18.296"/>
-            <path style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;" d="M328.943,77.177
+            <circle class="marker-seixascaminha" style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-miterlimit:10;" cx="340.886" cy="78.448" r="18.296"/>
+            <path class="marker-seixascaminha" style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;" d="M328.943,77.177
                 c0.621,0.089,1.28-8.771,10.927-10.927"/>
             
-                <line style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;" x1="340.886" y1="96.743" x2="340.886" y2="135.622"/>
+                <line class="marker-seixascaminha" style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;" x1="340.886" y1="96.743" x2="340.886" y2="135.622"/>
         </g>
         <g>
             <circle class="01" style="fill:none;stroke:#CE2E26;stroke-width:3;stroke-miterlimit:10;" cx="366.813" cy="200.494" r="18.296"/>
