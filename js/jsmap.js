@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".marker-seixascaminha").click(function(){
-    $(".seixascaminha-txt").toggle();
-  });
+$(".marker-seixascaminha").hover(function(){
+$(".seixascaminha-txt").toggle();
+});
 });
