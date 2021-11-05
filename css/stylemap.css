@@ -133,13 +133,27 @@ body{
     left: 10%;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
     .map {
-        width: 600px;
+        width: 515px;
         margin: auto;
     }
 
 @media screen and (max-width: 800px){
+    .map {
+        width: 550px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .map {
+        width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
     .map {
         width: 400px;
         margin: auto;
@@ -148,7 +162,14 @@ body{
 
 @media screen and (max-width: 400px){
     .map {
-        width: 200px;
+        width: 340px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .map {
+        width: 250px;
         margin: auto;
     }
 }
