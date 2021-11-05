@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".marker-seixascaminha").hover(function(){
-    $(".seixascaminha-txt").toggle();
+    $(".marker-00").hover(function(){
+    $(".txt-00").toggle();
 });
 });
 
