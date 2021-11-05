@@ -3,9 +3,8 @@ body{
 }
 
 .map{
-    width: 2000px;
+    width: 500px;
     margin: auto;
-    border: 3px solid £73AD21;
 }
 
 .hide{
@@ -132,4 +131,24 @@ body{
 .txt-22{
     top: 10%;
     left: 10%;
+}
+
+@media screen and (max-width: 1200px){
+    .map {
+        width: 600px;
+        margin: auto;
+    }
+
+@media screen and (max-width: 800px){
+    .map {
+        width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .map {
+        width: 200px;
+        margin: auto;
+    }
 }
